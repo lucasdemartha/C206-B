@@ -7,10 +7,10 @@ import br.inatel.cdg.jogador.Jogador;
 public class Main {
     public static void main(String[] args) {
 
-        Bloco bloco1 = new Bloco();
-        Bloco bloco2 = new Bloco();
-        Bloco bloco3 = new Bloco();
-        Bloco bloco4 = new Bloco();
+        Bloco bloco1 = new Bloco(); //numBlocos = 0 -> numBlocos = 1
+        Bloco bloco2 = new Bloco(); //numBlocos = 1 -> numBlocos = 2
+        Bloco bloco3 = new Bloco(); //numBlocos = 2 -> numBlocos = 3
+        Bloco bloco4 = new Bloco(); //numBlocos = 3 -> numBlocos = 4
 
         System.out.println("Blocos em jogo: " + Bloco.getNumBlocos());
 

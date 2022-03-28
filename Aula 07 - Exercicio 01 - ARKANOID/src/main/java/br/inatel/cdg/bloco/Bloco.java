@@ -2,7 +2,7 @@ package br.inatel.cdg.bloco;
 
 public class Bloco {
 
-    private static int numBlocos = 0;
+    private static int numBlocos = 0; //não zera a variável
 
     public Bloco(){
         numBlocos++;
