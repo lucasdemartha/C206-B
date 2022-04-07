@@ -15,5 +15,16 @@ public class Main {
         z1.tomarDano();
         z1.mostraInfo();
 
+        cp1.atacando();
+        cp1.ataqueForte();
+        System.out.println(cp1.getVida());
+        cp1.tomarDano();
+        cp1.mostraInfo();
+
+        cn1.atacando();
+        cn1.ataqueRapido();
+        System.out.println(cn1.getVida());
+        cn1.tomarDano();
+        cn1.mostraInfo();
     }
 }
